@@ -75,7 +75,8 @@ function Main() {
                             </div>
                             <div className="col">
                                 <div className="card h-10">
-                                    <img src="images/strawberry.jpeg" style={{ width: '200px' }} className="card-img-top" alt="berry" />
+                                    {/* <img src="images/strawberry.jpeg" style={{ width: '200px' }} className="card-img-top" alt="berry" /> */}
+                                    <img src="images/strawberry.jpeg" className="card-img-top" alt="berry" />
                                     <div className="card-body">
                                         <h5 className="card-title">strawberry</h5>
                                         <p className="card-text">Rs.180/kg</p>
@@ -88,7 +89,8 @@ function Main() {
                             </div> 
                             <div className="col">
                                 <div className="card h-10">
-                                    <img src="images/apple.jpeg" style={{ width: '200px' }} className="card-img-top" alt="apple" /> 
+                                    {/* <img src="images/apple.jpeg" style={{ width: '200px' }} className="card-img-top" alt="apple" />  */}
+                                    <img src="images/apple.jpeg" className="card-img-top" alt="apple" /> 
                                     <div className="card-body">
                                         <h5 className="card-title">Apple</h5>
                                         <p className="card-text">Rs.200/kg</p>
@@ -113,7 +115,7 @@ function Main() {
                         <div className="row row-cols-1 row-cols-md-3 g-4">
                             <div className="col">
                                 <div className="card h-10">
-                                    <img src="images/onion.jpeg" style={{ width: '200px' }} className="card-img-top" alt="onion" />
+                                    <img src="images/onion.jpeg" className="card-img-top" alt="onion" />
                                     <div className="card-body">
                                         <h5 className="card-title">Onion</h5>
                                         <p className="card-text">Rs.110/kg</p>
