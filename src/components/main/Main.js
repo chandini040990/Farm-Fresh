@@ -32,7 +32,7 @@ function Main() {
                             </div>
                             <div className="col">
                                 <div className="card h-10">
-                                    <img src="images/banana.jpeg" style={{ width: '300px' }} class="card-img-top" alt="banana" />
+                                    <img src="images/banana.jpeg" style={{ width: '300px' }} className="card-img-top" alt="banana" />
                                     <div className="card-body">
                                         <h5 className="card-title">Banana</h5>
                                         <p className="card-text">Rs.150/kg</p>
@@ -45,7 +45,7 @@ function Main() {
                             </div>
                             <div className="col">
                                 <div className="card h-10">
-                                    <img src="images/grapes.jpeg" style={{ width: '245px' }} class="card-img-top" alt="grapes" />
+                                    <img src="images/grapes.jpeg" style={{ width: '245px' }} className="card-img-top" alt="grapes" />
                                     <div className="card-body">
                                         <h5 className="card-title">Grapes</h5>
                                         <p className="card-text">Rs.100/kg</p>
@@ -58,7 +58,7 @@ function Main() {
                             </div>
                             <div className="col">
                                 <div className="card h-10">
-                                    <img src="images/pomogranate.jpeg" style={{ width: '250px' }} class="card-img-top" alt="pomo" />
+                                    <img src="images/pomogranate.jpeg" style={{ width: '250px' }} className="card-img-top" alt="pomo" />
                                     <div className="card-body">
                                         <h5 className="card-title">Pomogranate</h5>
                                         <p className="card-text">Rs.80/kg</p>
@@ -71,7 +71,7 @@ function Main() {
                             </div>
                             <div className="col">
                                 <div className="card h-10">
-                                    <img src="images/strawberry.jpeg" style={{ width: '200px' }} class="card-img-top" alt="berry" />
+                                    <img src="images/strawberry.jpeg" style={{ width: '200px' }} className="card-img-top" alt="berry" />
                                     <div className="card-body">
                                         <h5 className="card-title">strawberry</h5>
                                         <p className="card-text">Rs.180/kg</p>
@@ -84,7 +84,7 @@ function Main() {
                             </div>
                             <div className="col">
                                 <div className="card h-10">
-                                    <img src="images/apple.jpeg" style={{ width: '200px' }} class="card-img-top" alt="apple" />
+                                    <img src="images/apple.jpeg" style={{ width: '200px' }} className="card-img-top" alt="apple" />
                                     <div className="card-body">
                                         <h5 className="card-title">Apple</h5>
                                         <p className="card-text">Rs.200/kg</p>
@@ -122,7 +122,7 @@ function Main() {
                             </div>
                             <div className="col">
                                 <div className="card h-10">
-                                    <img src="images/tomato.jpeg" style={{ width: '270px' }} class="card-img-top" alt="tomato" />
+                                    <img src="images/tomato.jpeg" style={{ width: '270px' }} className="card-img-top" alt="tomato" />
                                     <div className="card-body">
                                         <h5 className="card-title">Tomato</h5>
                                         <p className="card-text">Rs.150/kg</p>
@@ -135,7 +135,7 @@ function Main() {
                             </div>
                             <div className="col">
                                 <div className="card h-10">
-                                    <img src="images/beans.jpeg" style={{ width: '285px' }} class="card-img-top" alt="beans" />
+                                    <img src="images/beans.jpeg" style={{ width: '285px' }} className="card-img-top" alt="beans" />
                                     <div className="card-body">
                                         <h5 className="card-title">Beans</h5>
                                         <p className="card-text">Rs.110/kg</p>
@@ -148,7 +148,7 @@ function Main() {
                             </div>
                             <div className="col">
                                 <div className="card h-10">
-                                    <img src="images/cauliflower.jpeg" style={{ width: '200px' }} class="card-img-top" alt="cauli" />
+                                    <img src="images/cauliflower.jpeg" style={{ width: '200px' }} className="card-img-top" alt="cauli" />
                                     <div className="card-body">
                                         <h5 className="card-title">Cauliflower</h5>
                                         <p className="card-text">Rs.130/kg</p>
@@ -161,7 +161,7 @@ function Main() {
                             </div>
                             <div className="col">
                                 <div className="card h-10">
-                                    <img src="images/brinjal.jpeg" style={{ width: '200px' }} class="card-img-top" alt="brinjal" />
+                                    <img src="images/brinjal.jpeg" style={{ width: '200px' }} className="card-img-top" alt="brinjal" />
                                     <div className="card-body">
                                         <h5 className="card-title">Brinjal</h5>
                                         <p className="card-text">Rs.150/kg</p>
@@ -174,7 +174,7 @@ function Main() {
                             </div>
                             <div className="col">
                                 <div className="card h-10">
-                                    <img src="images/carrot.jpeg" style={{ width: '200px' }} class="card-img-top" alt="carrot" />
+                                    <img src="images/carrot.jpeg" style={{ width: '200px' }} className="card-img-top" alt="carrot" />
                                     <div className="card-body">
                                         <h5 className="card-title">Carrots</h5>
                                         <p className="card-text">Rs.200/kg</p>
@@ -199,12 +199,12 @@ function Main() {
                     <img src="images/aboutus1.jpeg" alt="aboutus" style={{ width: '100%' }} />
                     <div className="text-block">
                         <h4>About Us</h4>
-                        <para>Most people know that fruits and vegetables are good for us. Both fruits and vegetables are high in dietary fibre as well as vitamins and minerals,
+                        <p>Most people know that fruits and vegetables are good for us. Both fruits and vegetables are high in dietary fibre as well as vitamins and minerals,
                             and other bioactive plant compounds, including many with antioxidant properties such as polyphenols or beta-carotene.
                             Fruits and vegetables contain, for example, vitamin A, B5, folate, C, E & K and are a rich source of calcium, iron, magnesium, manganese and potassium.
                             The amounts and types of nutrients vary between different types of fruits and vegetables. Fruits and vegetables are also high in water, ranging from 75-90% of their weight.
                             This fact explains their low energy content.Fruits and vegetables usually contain traces of fats and protein,
-                            with a few exceptions such as avocados, which have a high fat content. </para>
+                            with a few exceptions such as avocados, which have a high fat content. </p>
                     </div>
                 </div>
             </section>
