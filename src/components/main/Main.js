@@ -34,7 +34,7 @@ function Main() {
                             <div className="col">
                                 <div className="card h-10">
                                     {/* <img src="images/banana.jpeg" style={{ width: '300px' }} className="card-img-top" alt="banana" /> */}
-                                    <img src="images/banana.jpeg" className="card-img-top" alt="banana" />
+                                    <img src="images/banana.jpeg"  className="card-img-top" alt="banana" />
                                     <div className="card-body">
                                         <h5 className="card-title">Banana</h5>
                                         <p className="card-text">Rs.150/kg</p>
@@ -75,8 +75,7 @@ function Main() {
                             </div>
                             <div className="col">
                                 <div className="card h-10">
-                                    {/* <img src="images/strawberry.jpeg" style={{ width: '200px' }} className="card-img-top" alt="berry" /> */}
-                                    <img src="images/strawberry.jpeg" className="card-img-top" alt="berry" />
+                                    <img src="images/strawberry.jpeg" style={{ width: '200px' }} className="card-img-top" alt="berry" />
                                     <div className="card-body">
                                         <h5 className="card-title">strawberry</h5>
                                         <p className="card-text">Rs.180/kg</p>
@@ -89,8 +88,7 @@ function Main() {
                             </div> 
                             <div className="col">
                                 <div className="card h-10">
-                                    {/* <img src="images/apple.jpeg" style={{ width: '200px' }} className="card-img-top" alt="apple" /> */}
-                                    <img src="images/apple.jpeg"  className="card-img-top" alt="apple" />
+                                    <img src="images/apple.jpeg" style={{ width: '200px' }} className="card-img-top" alt="apple" /> 
                                     <div className="card-body">
                                         <h5 className="card-title">Apple</h5>
                                         <p className="card-text">Rs.200/kg</p>
