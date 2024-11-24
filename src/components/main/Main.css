@@ -1,0 +1,120 @@
+.container {
+    background-color: white;
+    width: 100%;
+    height: auto;
+
+}
+
+.navbar {
+    background-color: rgb(116, 182, 17);
+    width: auto;
+    color: black;
+    font-size: 40px;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.object-fit-fill {
+    width: 100%;
+    height: 30%;
+}
+
+
+.navbar-fruits {
+    background-color: rgb(116, 182, 17);
+    width: auto;
+    color: black;
+    font-size: 40px;
+    padding: 10px;
+    margin-top: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.navbar-vegetables {
+    background-color: rgb(116, 182, 17);
+    width: auto;
+    color: black;
+    font-size: 40px;
+    padding: 10px;
+    margin-top: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.navbar-offer {
+    background-color: rgb(116, 182, 17);
+    width: auto;
+    color: black;
+    font-size: 40px;
+    padding: 10px;
+    margin-top: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.navbar-about {
+    background-color: rgb(116, 182, 17);
+    width: auto;
+    color: black;
+    font-size: 40px;
+    padding: 10px;
+    margin-top: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card {
+    justify-content: center;
+    text-align: center;
+}
+
+.col {
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.card-img-top {
+    justify-content: center;
+    text-align: center;
+}
+
+.card-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Container holding the image and the text */
+.container-about {
+    position: relative;
+
+}
+
+/* Bottom right text */
+.text-block {
+    position: absolute;
+    top: 80px;
+    left: 700px;
+    text-align: justify;
+    justify-content: right;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.card1 {
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 200px;
+}
+
+.card1-text {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px;
+}

@@ -1,0 +1,11 @@
+.container-fluid {
+    background-color: rgb(175, 230, 92);
+    color: black;
+    justify-content: space-between;
+    padding: 30px;
+    text-align: left;
+}
+
+.row {
+    justify-content: space-between;
+}
