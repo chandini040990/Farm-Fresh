@@ -11,11 +11,11 @@ function Main() {
 
 
                 <section>
-                    <nav className="navbar-fruits">
-                        <a className="navbar-brand" href="#fruits">Fruits</a>
-                    </nav>
 
                     <div className="container">
+                        <nav className="navbar-fruits">
+                            <a className="navbar-brand" href="#fruits">Fruits</a>
+                        </nav>
                         <div className="row row-cols-1 row-cols-md-3 g-4">
                             <div className="col">
                                 <div className="card h-100">
@@ -107,11 +107,11 @@ function Main() {
                 </section>
 
                 <section>
-                    <nav className="navbar-vegetables">
-                        <a className="navbar-brand" href="#vegetables">Vegetables</a>
-                    </nav>
 
                     <div className="container">
+                        <nav className="navbar-vegetables">
+                            <a className="navbar-brand" href="#vegetables">Vegetables</a>
+                        </nav>
                         <div className="row row-cols-1 row-cols-md-3 g-4">
                             <div className="col">
                                 <div className="card h-100">
