@@ -10,7 +10,7 @@ function Main() {
                     className="object-fit-fill border rounded" alt="Bgimg" />
 
 
-                {/* <section> */}
+                <section>
                     <nav className="navbar-fruits">
                         <a className="navbar-brand" href="#fruits">Fruits</a>
                     </nav>
@@ -19,7 +19,8 @@ function Main() {
                         <div className="row row-cols-1 row-cols-md-3 g-4">
                             <div className="col">
                                 <div className="card h-10">
-                                    <img src="https://cdn-icons-png.flaticon.com/512/721/721098.png" style={{ width: '200px' }} className="card-img-top" alt="orange" />
+                                    {/* <img src="images/orange.jpeg" style={{ width: '200px' }} className="card-img-top" alt="orange" /> */}
+                                    <img src="images/orange.jpeg" className="card-img-top" alt="orange" />
                                     <div className="card-body">
                                         <h5 className="card-title">Orange</h5>
                                         <p className="card-text">Rs.110/kg</p>
@@ -32,7 +33,8 @@ function Main() {
                             </div>
                             <div className="col">
                                 <div className="card h-10">
-                                    <img src="images/banana.jpeg" style={{ width: '300px' }} className="card-img-top" alt="banana" />
+                                    {/* <img src="images/banana.jpeg" style={{ width: '300px' }} className="card-img-top" alt="banana" /> */}
+                                    <img src="images/banana.jpeg" className="card-img-top" alt="banana" />
                                     <div className="card-body">
                                         <h5 className="card-title">Banana</h5>
                                         <p className="card-text">Rs.150/kg</p>
@@ -45,7 +47,8 @@ function Main() {
                             </div>
                             <div className="col">
                                 <div className="card h-10">
-                                    <img src="images/grapes.jpeg" style={{ width: '245px' }} className="card-img-top" alt="grapes" />
+                                    {/* <img src="images/grapes.jpeg" style={{ width: '245px' }} className="card-img-top" alt="grapes" /> */}
+                                    <img src="images/grapes.jpeg" className="card-img-top" alt="grapes" />
                                     <div className="card-body">
                                         <h5 className="card-title">Grapes</h5>
                                         <p className="card-text">Rs.100/kg</p>
@@ -58,7 +61,8 @@ function Main() {
                             </div>
                             <div className="col">
                                 <div className="card h-10">
-                                    <img src="images/pomogranate.jpeg" style={{ width: '250px' }} className="card-img-top" alt="pomo" />
+                                    {/* <img src="images/pomogranate.jpeg" style={{ width: '250px' }} className="card-img-top" alt="pomo" /> */}
+                                    <img src="images/pomogranate.jpeg" className="card-img-top" alt="pomo" />
                                     <div className="card-body">
                                         <h5 className="card-title">Pomogranate</h5>
                                         <p className="card-text">Rs.80/kg</p>
@@ -69,9 +73,10 @@ function Main() {
                                     </div>
                                 </div>
                             </div>
-                            {/* <div className="col">
+                            <div className="col">
                                 <div className="card h-10">
-                                    <img src="images/strawberry.jpeg" style={{ width: '200px' }} className="card-img-top" alt="berry" />
+                                    {/* <img src="images/strawberry.jpeg" style={{ width: '200px' }} className="card-img-top" alt="berry" /> */}
+                                    <img src="images/strawberry.jpeg" className="card-img-top" alt="berry" />
                                     <div className="card-body">
                                         <h5 className="card-title">strawberry</h5>
                                         <p className="card-text">Rs.180/kg</p>
@@ -81,10 +86,11 @@ function Main() {
                                         <img src="images/cart1.png" style={{ width: '30px' }} alt="cart1" />
                                     </div>
                                 </div>
-                            </div> */}
-                            {/* <div className="col">
+                            </div> 
+                            <div className="col">
                                 <div className="card h-10">
-                                    <img src="images/apple.jpeg" style={{ width: '200px' }} className="card-img-top" alt="apple" />
+                                    {/* <img src="images/apple.jpeg" style={{ width: '200px' }} className="card-img-top" alt="apple" /> */}
+                                    <img src="images/apple.jpeg"  className="card-img-top" alt="apple" />
                                     <div className="card-body">
                                         <h5 className="card-title">Apple</h5>
                                         <p className="card-text">Rs.200/kg</p>
@@ -93,14 +99,14 @@ function Main() {
                                         <small className="text-body-secondary">Quantity</small>
                                         <img src="images/cart1.png" style={{ width: '30px' }} alt="cart1" />
                                     </div>
-                                </div> */}
-                            {/* </div> */}
+                                </div>
+                            </div>
                         </div>
                     </div>
 
-                {/* </section> */}
+                 </section>
 
-                {/* <section> */}
+                 <section> 
                     <nav className="navbar-vegetables">
                         <a className="navbar-brand" href="#vegetables">Vegetables</a>
                     </nav>
@@ -109,7 +115,7 @@ function Main() {
                         <div className="row row-cols-1 row-cols-md-3 g-4">
                             <div className="col">
                                 <div className="card h-10">
-                                    {/* <img src="images/onion.jpeg" style={{ width: '200px' }} className="card-img-top" alt="onion" /> */}
+                                    <img src="images/onion.jpeg" style={{ width: '200px' }} className="card-img-top" alt="onion" />
                                     <div className="card-body">
                                         <h5 className="card-title">Onion</h5>
                                         <p className="card-text">Rs.110/kg</p>
@@ -122,7 +128,7 @@ function Main() {
                             </div>
                             <div className="col">
                                 <div className="card h-10">
-                                    {/* <img src="images/tomato.jpeg" style={{ width: '270px' }} className="card-img-top" alt="tomato" /> */}
+                                    <img src="images/tomato.jpeg" style={{ width: '270px' }} className="card-img-top" alt="tomato" />
                                     <div className="card-body">
                                         <h5 className="card-title">Tomato</h5>
                                         <p className="card-text">Rs.150/kg</p>
@@ -135,7 +141,7 @@ function Main() {
                             </div>
                             <div className="col">
                                 <div className="card h-10">
-                                    {/* <img src="images/beans.jpeg" style={{ width: '285px' }} className="card-img-top" alt="beans" /> */}
+                                    <img src="images/beans.jpeg" style={{ width: '285px' }} className="card-img-top" alt="beans" />
                                     <div className="card-body">
                                         <h5 className="card-title">Beans</h5>
                                         <p className="card-text">Rs.110/kg</p>
@@ -148,7 +154,7 @@ function Main() {
                             </div>
                             <div className="col">
                                 <div className="card h-10">
-                                    {/* <img src="images/cauliflower.jpeg" style={{ width: '200px' }} className="card-img-top" alt="cauli" /> */}
+                                    <img src="images/cauliflower.jpeg" style={{ width: '200px' }} className="card-img-top" alt="cauli" />
                                     <div className="card-body">
                                         <h5 className="card-title">Cauliflower</h5>
                                         <p className="card-text">Rs.130/kg</p>
@@ -159,7 +165,7 @@ function Main() {
                                     </div>
                                 </div>
                             </div>
-                            {/* <div className="col">
+                            <div className="col">
                                 <div className="card h-10">
                                     <img src="images/brinjal.jpeg" style={{ width: '200px' }} className="card-img-top" alt="brinjal" />
                                     <div className="card-body">
@@ -184,15 +190,14 @@ function Main() {
                                         <img src="images/cart1.png" style={{ width: '30px' }} alt="cart1" />
                                     </div>
                                 </div>
-                            </div> */}
+                            </div>
                         </div>
                     </div>
                     
-
-                {/* </section> */}
+                </section>
             </div>
 
-            {/* <section> */}
+            <section>
                 <nav className="navbar-about">
                     <a className="navbar-brand" href="#aboutus">About Us</a>
                 </nav>
@@ -208,9 +213,9 @@ function Main() {
                             with a few exceptions such as avocados, which have a high fat content. </p>
                     </div>
                 </div>
-            {/* </section> */}
+            </section>
 
-            {/* <section> */}
+            <section>
                 <nav className="navbar-offer">
                     <a className="navbar-brand" href="#offer">Offers</a>
                 </nav>
@@ -220,7 +225,7 @@ function Main() {
                         <p className="card1-text">Copy the coupon code and apply during payment.</p>
                     </div>
                 </div>
-            {/* </section> */}
+            </section>
 
         </>
     )
