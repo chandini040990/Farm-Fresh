@@ -69,7 +69,7 @@ function Main() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col">
+                            {/* <div className="col">
                                 <div className="card h-10">
                                     <img src="images/strawberry.jpeg" style={{ width: '200px' }} className="card-img-top" alt="berry" />
                                     <div className="card-body">
@@ -81,8 +81,8 @@ function Main() {
                                         <img src="images/cart1.png" style={{ width: '30px' }} alt="cart1" />
                                     </div>
                                 </div>
-                            </div>
-                            <div className="col">
+                            </div> */}
+                            {/* <div className="col">
                                 <div className="card h-10">
                                     <img src="images/apple.jpeg" style={{ width: '200px' }} className="card-img-top" alt="apple" />
                                     <div className="card-body">
@@ -93,8 +93,8 @@ function Main() {
                                         <small className="text-body-secondary">Quantity</small>
                                         <img src="images/cart1.png" style={{ width: '30px' }} alt="cart1" />
                                     </div>
-                                </div>
-                            </div>
+                                </div> */}
+                            {/* </div> */}
                         </div>
                     </div>
 
@@ -159,7 +159,7 @@ function Main() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col">
+                            {/* <div className="col">
                                 <div className="card h-10">
                                     <img src="images/brinjal.jpeg" style={{ width: '200px' }} className="card-img-top" alt="brinjal" />
                                     <div className="card-body">
@@ -184,7 +184,7 @@ function Main() {
                                         <img src="images/cart1.png" style={{ width: '30px' }} alt="cart1" />
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
 
