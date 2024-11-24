@@ -19,7 +19,7 @@ function Main() {
                         <div className="row row-cols-1 row-cols-md-3 g-4">
                             <div className="col">
                                 <div className="card h-10">
-                                    {/* <img src="images/orange.jpeg" style={{ width: '200px' }} className="card-img-top" alt="orange" /> */}
+                                    <img src="https://cdn-icons-png.flaticon.com/512/721/721098.png" style={{ width: '200px' }} className="card-img-top" alt="orange" />
                                     <div className="card-body">
                                         <h5 className="card-title">Orange</h5>
                                         <p className="card-text">Rs.110/kg</p>
@@ -32,7 +32,7 @@ function Main() {
                             </div>
                             <div className="col">
                                 <div className="card h-10">
-                                    {/* <img src="images/banana.jpeg" style={{ width: '300px' }} className="card-img-top" alt="banana" /> */}
+                                    <img src="images/banana.jpeg" style={{ width: '300px' }} className="card-img-top" alt="banana" />
                                     <div className="card-body">
                                         <h5 className="card-title">Banana</h5>
                                         <p className="card-text">Rs.150/kg</p>
@@ -45,7 +45,7 @@ function Main() {
                             </div>
                             <div className="col">
                                 <div className="card h-10">
-                                    {/* <img src="images/grapes.jpeg" style={{ width: '245px' }} className="card-img-top" alt="grapes" /> */}
+                                    <img src="images/grapes.jpeg" style={{ width: '245px' }} className="card-img-top" alt="grapes" />
                                     <div className="card-body">
                                         <h5 className="card-title">Grapes</h5>
                                         <p className="card-text">Rs.100/kg</p>
@@ -58,7 +58,7 @@ function Main() {
                             </div>
                             <div className="col">
                                 <div className="card h-10">
-                                    {/* <img src="images/pomogranate.jpeg" style={{ width: '250px' }} className="card-img-top" alt="pomo" /> */}
+                                    <img src="images/pomogranate.jpeg" style={{ width: '250px' }} className="card-img-top" alt="pomo" />
                                     <div className="card-body">
                                         <h5 className="card-title">Pomogranate</h5>
                                         <p className="card-text">Rs.80/kg</p>
