@@ -10,7 +10,7 @@ function Main() {
                     className="object-fit-fill border rounded" alt="Bgimg" />
 
 
-                <section>
+                {/* <section> */}
                     <nav className="navbar-fruits">
                         <a className="navbar-brand" href="#fruits">Fruits</a>
                     </nav>
@@ -98,9 +98,9 @@ function Main() {
                         </div>
                     </div>
 
-                </section>
+                {/* </section> */}
 
-                <section>
+                {/* <section> */}
                     <nav className="navbar-vegetables">
                         <a className="navbar-brand" href="#vegetables">Vegetables</a>
                     </nav>
@@ -188,10 +188,10 @@ function Main() {
                         </div>
                     </div>
 
-                </section>
+                {/* </section> */}
             </div>
 
-            <section>
+            {/* <section> */}
                 <nav className="navbar-about">
                     <a className="navbar-brand" href="#aboutus">About Us</a>
                 </nav>
@@ -207,9 +207,9 @@ function Main() {
                             with a few exceptions such as avocados, which have a high fat content. </p>
                     </div>
                 </div>
-            </section>
+            {/* </section> */}
 
-            <section>
+            {/* <section> */}
                 <nav className="navbar-offer">
                     <a className="navbar-brand" href="#offer">Offers</a>
                 </nav>
@@ -219,7 +219,7 @@ function Main() {
                         <p className="card1-text">Copy the coupon code and apply during payment.</p>
                     </div>
                 </div>
-            </section>
+            {/* </section> */}
 
         </>
     )
